@@ -1,0 +1,20 @@
+{
+    "name": "suncoding/test-hy",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "suncoding",
+            "email": "xyysun24@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php":">=7.2"
+	},
+    "autoload":{
+		"psr-4":{
+		   "test-hy\\Library\\":"src/test-hy/Library"
+		}
+	}
+}
